@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+
+.header-fisso{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    outline: 1px solid lightgrey;
+    
+}
+.barra-interzaioni-sx{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.barra-interzaioni-dx{
+    display: flex;
+    justify-content: flex-end;
+}
+.a-sx{
+    padding-left: 15px;
+
+}
+.a-dx{
+    padding-right: 15px;
+}
