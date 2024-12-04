@@ -7,12 +7,15 @@
 img{
     display: block;
 }
+.div-iniziale{
+    display: flex;
+}
 
 .header-fisso{
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -23,11 +26,13 @@ img{
 .barra-interzaioni-sx{
     display: flex;
     justify-content: flex-start;
+    
 }
 
 .barra-interzaioni-dx{
     display: flex;
     justify-content: flex-end;
+    
 }
 .a-sx{
     padding-left: 15px;
@@ -35,4 +40,37 @@ img{
 }
 .a-dx{
     padding-right: 15px;
+}
+.primo-blocco{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    right: 20px;
+    
+}
+.posizione-testo{
+    padding-top: 20px;
+    font-size: xxx-large;
+    padding-bottom: 20px;
+    
+}
+.immagine-iniziale{
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 40%;
+    left: 50%;
+    bottom: 120px;
+    left: 15%;
+
+}
+.inizio{
+    position: relative;
+    right: 20%;
+    top: 20px;
+    
+    
 }
