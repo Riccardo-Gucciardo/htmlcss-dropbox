@@ -1,5 +1,6 @@
-*{
-
+*{ 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -35,6 +36,11 @@ img{
     justify-content: flex-end;
     
 }
+.bottone{
+    padding: 5px 15px;
+    background-color: rgb(42, 59, 243);
+    color: white;
+}
 .a-sx{
     padding-left: 15px;
 
@@ -43,37 +49,36 @@ img{
     padding-right: 15px;
 }
 .primo-blocco{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-    
+    padding: 20px 0;
+    background: linear-gradient(rgb(175, 205, 227) 80%, white 20%);
+
 }
-.inizio{
+.container-80{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 6% 0;
+}
+
+.info-primo-blocco{
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    flex-basis: 40%;
     
 }
-.background{
+.testo-primo-blocco{
+    flex-basis: 40%;
     display: flex;
     flex-direction: column;
-    max-width: 90%;
-    position: relative;
-    top: 40px;
-    
-
+    gap: 15px;
 }
-
-.immagine-iniziale{
+.immage{
+    flex-basis: 90%;
     position: relative;
-    left: 40%;
-    bottom: 150px;
+    
 }
 h1{
     font-size: 3rem;
+    margin-bottom: 20px;
 }
+
+
 
