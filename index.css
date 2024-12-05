@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
     text-decoration: none;
 }
+
 img{
     display: block;
 }
@@ -15,12 +15,13 @@ img{
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
     outline: 1px solid lightgrey;
+    background-color: white;
     
 }
 .barra-interzaioni-sx{
@@ -47,30 +48,32 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
-    right: 20px;
+   
     
-}
-.posizione-testo{
-    padding-top: 20px;
-    font-size: xxx-large;
-    padding-bottom: 20px;
-    
-}
-.immagine-iniziale{
-    position: relative;
-    display: flex;
-    height: 300px;
-    width: 40%;
-    left: 50%;
-    bottom: 120px;
-    left: 15%;
-
 }
 .inizio{
-    position: relative;
-    right: 20%;
-    top: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 40%;
     
 }
+.background{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    position: relative;
+    top: 40px;
+    
+
+}
+
+.immagine-iniziale{
+    position: relative;
+    left: 40%;
+    bottom: 150px;
+}
+h1{
+    font-size: 3rem;
+}
+
