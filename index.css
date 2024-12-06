@@ -83,6 +83,11 @@ h1{
     max-width: 80%;
     margin: 0 auto;
 }
+.terzo-blocco{
+    
+
+
+}
 .scelta-fatturazione{
     display: flex;
     flex-direction: row;
@@ -96,6 +101,7 @@ h1{
     border-radius: 50%;
     border: 1px solid grey;
     
+    
 }
 .posizionamento{
     display: flex;
@@ -105,19 +111,38 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 10px;
+    padding: 10px;
+    outline: 1px solid lightslategray;
+    gap: 10px;
     
 }
 .box-piani > div{
-    flex-direction: column;
     flex-grow: 1;
     flex-basis: calc(100% / 3 - 10px);
+    gap: 10px;
+    
 
 }
 .box-piani > div:last-child{
     flex-basis: 100%;
 
 }
+
+.box-top{
+    text-align: center;
+    padding: 10px;
+    outline: 1px solid lightslategray;
+
+}
+.card-bottom{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+hr{}
+
+
 
 
 
